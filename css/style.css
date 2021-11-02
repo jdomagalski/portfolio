@@ -1,1 +1,17 @@
+html {
+    scroll-behavior: smooth;
+}
 
+body {
+    background-color: #ffffff;
+}
+
+#home {
+    
+}
+
+.container {
+    display: grid;
+    grid: repeat(4, auto) / repeat(3, 1fr);
+
+}
