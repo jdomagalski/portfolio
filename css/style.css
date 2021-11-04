@@ -2,7 +2,9 @@ html {
     scroll-behavior: smooth;
 }
 
-
+link {
+    display: inline;
+}
 header {
     padding-left: 20px;
     padding-top: 10px;
