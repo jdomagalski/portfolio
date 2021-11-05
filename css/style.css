@@ -61,14 +61,16 @@ a {
     padding-right: 50px;
 }
 
-.what {
+.description {
     grid-row: 2 / span 1;
+}
+
+.what {
     grid-column: 1 / 2;
 }
 
 .how {
-    grid-row: 2 / span 1;
-    grid-column: 2 / span 1;
+    grid-column: 3 / span 1;
 }
 
 .newsletters {
@@ -79,6 +81,7 @@ a {
 
 h1 {
     font-size: 36px;
+    padding-bottom: 10px;
 
 }
 
