@@ -1,10 +1,12 @@
+* {
+    font-family: 'Lato', sans-serif;;
+}
+
 html {
     scroll-behavior: smooth;
 }
 
-link {
-    display: inline;
-}
+
 header {
     padding-left: 20px;
     padding-top: 10px;
@@ -23,13 +25,13 @@ body {
 }
 
 .menu ul{
-    height: 100px;
+    height: 65px;
     padding-left: 75px;
     padding-right: 75px;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    padding-top: 15px;
+    padding-top: 20px;
     background-color: #e91f1a;
   }
   
@@ -59,6 +61,7 @@ a {
     grid-row: 1 / span 1;
     padding-left: 50px;
     padding-right: 50px;
+    border: 2px solid #338EFF;
 }
 
 .description {
