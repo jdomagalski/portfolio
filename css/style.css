@@ -98,8 +98,10 @@ p {
 }
 
 .image1 img {
-  width: fit-content;
-  height: fit-content;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
   
   @media (min-width: 750px) {
