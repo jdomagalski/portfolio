@@ -59,7 +59,10 @@ main {
 
 .menu li:hover {
     background-color: #338EFF;
+}
 
+.menu ul:first-child {
+  color:#ffffff;
 }
 
 a {
@@ -67,6 +70,11 @@ a {
     width:fit-content;
     border-radius: 25px;
 
+}
+
+
+a:visited{
+  color: #1d3fd6;
 }
 
 .content {
