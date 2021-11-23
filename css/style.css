@@ -186,12 +186,13 @@ footer h2 {
   height: 100px;
 }
 
-footer li {
-  list-style-type: none;
-  padding: 25px;
-  font-size: 18px;
+ul li #footer-instagram {
+  list-style-image: url('img\Instagram_Glyph_Gradient_RGB.png');
 }
 
+ul li #footer-twitter {
+  list-style-image: url('img\Twitter social icons - circle - blue.png');
+}
   @media (min-width: 750px) {
   
     /* top nav */
