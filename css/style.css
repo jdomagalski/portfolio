@@ -20,7 +20,9 @@ main {
     margin-right: 50px;
 }
 
-
+div {
+  text-align: center;
+}
 
 .menu li {
     list-style-type: none;
@@ -57,13 +59,21 @@ main {
     border: 3px;
 }
 
+@keyframes menu {
+  from {color: #56616D;}
+  to {color: #ffffff;}
+}
+
 .menu li:hover {
-    background-color: #338EFF;
+  text-decoration: underline;
+  border: 2px solid white; 
+  animation-name: menu;
 }
 
 .menu ul:first-child {
   color:#ffffff;
 }
+
 
 a {
     color: #ffffff;
@@ -72,9 +82,12 @@ a {
 
 }
 
+.how a {
+  color:#000000;
+}
 
 a:visited{
-  color: #1d3fd6;
+  color: #AAB9CB;
 }
 
 .content {
@@ -98,11 +111,15 @@ h2 {
 }
 
 p {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.6;
     text-align: left;
-    padding: 15px;
+    padding: 20px;
     
+}
+
+div.description p {
+  max-width: 900px;
 }
 
 .image1 img {
@@ -115,15 +132,48 @@ p {
 
 .grid { 
   display: grid;
-  grid-template-columns:repeat(2, minmax(400px, 600px));
-  row-gap: 25px;
-  align-items: center; 
+  grid-template-columns:repeat(auto-fill, minmax(400px, 1fr));
+  row-gap: 50px;
+  column-gap: 25px;
+  justify-items: center; 
+  margin-top: 50px;
   }
+
 .grid iframe {
+  display: flex;
+  align-content: center;
   border: 1px solid #ccc;
   box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
   height: 400px;
   width: 400px;
+  }
+
+button {
+  font-size: 20px;
+  background-color: #ff0000;
+  color: #ffffff;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  margin-top: 20px;
+  padding: 25px;
+  border-radius: 35px;
+}
+
+@keyframes changecolor {
+  from {background-color: #2683EF;}
+  to {background-color: #ff0000;}
+}
+
+  #animated {
+    width: fit-content;
+    margin: auto;
+    color: #ffffff;
+    background-color: #2683EF;
+    animation-name: changecolor;
+    animation-delay: 1.5s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
   }
   
   @media (min-width: 750px) {
