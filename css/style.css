@@ -176,6 +176,22 @@ button {
     animation-fill-mode: forwards;
   }
   
+footer {
+  background-color: #194BC6;
+  margin: 15px;
+}
+
+footer h2 {
+  color: #ffffff;
+  height: 100px;
+}
+
+footer li {
+  list-style-type: none;
+  padding: 25px;
+  font-size: 18px;
+}
+
   @media (min-width: 750px) {
   
     /* top nav */
