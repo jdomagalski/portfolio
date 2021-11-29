@@ -90,20 +90,40 @@ a {
 }
 
 a:visited{
-  color: #AAB9CB;
+  text-decoration: underline #ffffff double;
 }
 
 .content {
-    padding-bottom: 25px;
-    margin: 25px;
-    margin: 10px;
-
+  margin: auto;
 }
 
+.content div p {
+  text-align: center;
+}
 h1 {
     font-size: 36px;
     padding: 25px;
     text-align: center;
+
+}
+
+header h1 {
+  background-color: #0081d6;
+  color: #ffffff;
+
+}
+
+.purpleIt {
+  animation-name: purpleIt;
+  animation-delay: 3.0s;
+  animation-duration: 3.0s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes purpleIt {
+  from {background-color: #2683EF;}
+  to {background-color: #9b36c9;}
 
 }
 
@@ -121,15 +141,39 @@ p {
     
 }
 
-div.description p {
-  max-width: 900px;
+.blue {
+  width: 50%;
+  margin-left: auto
+  ;margin-right: auto;
+  border-top: 2px solid #2683EF;
 }
 
-.image1 img {
+.red {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 2px solid #ff0000;
+}
+
+div.description p {
+  max-width: 900px;
+  align-self: center;
+}
+
+.index_images  {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  height: 50%;
+}
+
+#newspaper_img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  height: 40%;
 }
 
 
@@ -150,6 +194,7 @@ div.description p {
   height: 400px;
   width: 400px;
   }
+  
 
 button {
   font-size: 20px;
@@ -174,7 +219,7 @@ button {
     color: #ffffff;
     background-color: #2683EF;
     animation-name: changecolor;
-    animation-delay: 1.5s;
+    animation-delay: 5.0s;
     animation-duration: 2s;
     animation-fill-mode: forwards;
   }
