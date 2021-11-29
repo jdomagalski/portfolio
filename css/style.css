@@ -193,6 +193,28 @@ ul li #footer-instagram {
 ul li #footer-twitter {
   list-style-image: url('img\Twitter social icons - circle - blue.png');
 }
+
+
+.container {
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+/* Style the input elements and the submit button */
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  background-color: #ff0000;
+  color: #ffffff;
+}
+
   @media (min-width: 750px) {
   
     /* top nav */
