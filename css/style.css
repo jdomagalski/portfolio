@@ -213,6 +213,7 @@ input[type=text], input[type=submit] {
 input[type=submit] {
   background-color: #ff0000;
   color: #ffffff;
+  
 }
 
   @media (min-width: 750px) {
