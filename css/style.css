@@ -274,9 +274,14 @@ input[type=submit] {
   display: block;
 }
 
-  @media (min-width: 750px) {
+@media screen and (min-width: 481px) {
+/* tablets
+
+}
+
+  @media screen and (min-width: 768px) {
   
-    /* top nav */
+    /* small screens and laptops*/
   
     .menu {
       flex-direction: row;
@@ -292,3 +297,7 @@ input[type=submit] {
       width: auto'
      }
 }      
+
+@media screen and (min-width: 1024px) {
+  /* desktop view
+}
