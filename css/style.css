@@ -227,20 +227,27 @@ button {
   
 footer {
   background-color: #194BC6;
-  margin: 15px;
+  margin-top: 50px;
+  padding-bottom: 25px;
 }
 
 footer h2 {
   color: #ffffff;
-  height: 100px;
+  height: 50px;
 }
 
-ul li #footer-instagram {
-  list-style-image: url('img\Instagram_Glyph_Gradient_RGB.png');
+footer ul {
+  list-style-type: none;
+  list-style-position: inside;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline;
+  text-align: center;
 }
 
-ul li #footer-twitter {
-  list-style-image: url('img\Twitter social icons - circle - blue.png');
+footer li {
+  margin-top: 20px;
+  font-size: 20px;
 }
 
 
@@ -268,7 +275,6 @@ input[type=submit] {
 
 #subscribe {
   object-fit: contain;
-  height: 400px;
   width: 400px;
   margin-left: auto;
   margin-right: auto;
@@ -276,7 +282,7 @@ input[type=submit] {
 }
 
 @media screen and (min-width: 481px) {
-/* tablets
+/* tablets */
 
 }
 
@@ -300,5 +306,5 @@ input[type=submit] {
 }      
 
 @media screen and (min-width: 1024px) {
-  /* desktop view
+  /* desktop view */
 }
