@@ -38,6 +38,7 @@ footer,header,hgroup,menu,nav,section {
 
 nav ul {
     list-style:none;
+    justify-content: space-between;
 }
 
 blockquote, q {
