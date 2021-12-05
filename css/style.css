@@ -82,11 +82,12 @@ a {
 }
 
 .how a {
-  color:#000000;
+  color:#0D4DD4;
 }
 
 a:visited{
-  text-decoration: underline #ffffff double;
+  text-decoration: underline #ffffff;
+  text-decoration-style: double;
 }
 
 .content {
