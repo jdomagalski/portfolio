@@ -10,6 +10,11 @@ html {
   display: hidden;
 }
 
+#skip:focus {
+  display: inline;
+  color: black;
+}
+
 body img {
     display: block;
     margin-left: auto;
@@ -57,9 +62,10 @@ div {
     justify-content: space-around;
   }
 
-.links li:active {
+.links li a.current {
     text-decoration: underline;
-    border: 3px;
+    border: 3px solid white;
+    padding: 15px;
 }
 
 
@@ -112,7 +118,7 @@ header h1 {
 
 .purpleIt {
   animation-name: purpleIt;
-  animation-delay: 3.0s;
+  animation-delay: 1.5s;
   animation-duration: 3.0s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in-out;
@@ -193,6 +199,20 @@ div.description p {
   box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
   height: 400px;
   width: 400px;
+  }
+
+  .parallax {
+    /* The image used */
+    background-image: url("img_parallax.jpg");
+  
+    /* Set a specific height */
+    min-height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
 
@@ -336,5 +356,10 @@ input[type=submit] {
     height: 400px;
     width: 400px;
     }
+  }
 
+@media (prefers-reduced-motion) {
+  #animated, .purpleIt {
+    animation: none;
+  }
 }
