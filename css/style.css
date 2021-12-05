@@ -6,6 +6,10 @@ html {
     scroll-behavior: smooth;
 }
 
+#skip {
+  display: hidden;
+}
+
 body img {
     display: block;
     margin-left: auto;
@@ -58,10 +62,6 @@ div {
     border: 3px;
 }
 
-@keyframes menu {
-  from {color: #56616D;}
-  to {color: #ffffff;}
-}
 
 .menu li:hover {
   text-decoration: underline;
@@ -168,8 +168,8 @@ div.description p {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
-  height: 40%;
+  width: 75%;
+  height: 75%;
 }
 
 
@@ -197,7 +197,8 @@ div.description p {
 
 button {
   font-size: 20px;
-  background-color: #ff0000;
+  font-style: bold;
+  background-color: #D40D0D;
   color: #ffffff;
   text-align: center;
   cursor: pointer;
@@ -248,6 +249,10 @@ footer li {
   font-size: 20px;
 }
 
+footer p {
+  color: #ffffff;
+}
+
 
 .container {
   padding: 20px;
@@ -273,7 +278,7 @@ input[type=submit] {
 
 #subscribe {
   object-fit: contain;
-  width: 400px;
+  max-height: 350px;
   margin-left: auto;
   margin-right: auto;
   display: block;
