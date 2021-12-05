@@ -191,6 +191,30 @@ div.description p {
   align-content: center;
   }
 
+
+.social-media {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  margin: 10px;
+  justify-items: center;
+}
+
+#instagram img{
+  justify-content: center;
+  padding: 20px;
+  flex-basis: 125px;
+  max-height: 250px;
+  max-width: 250px;
+}
+
+#twitter img{
+  padding: 20px;
+  flex-basis: 125px;
+  max-height: 250px;
+  max-width: 250px;
+}
+
 .grid iframe {
   display: flex;
   justify-content: center;
@@ -202,19 +226,20 @@ div.description p {
   }
 
   .parallax {
-    /* The image used */
-    background-image: url("img_parallax.jpg");
-  
-    /* Set a specific height */
+    background-image: url("../img/unseen-histories-BBxy12IGzvk-unsplash.jpg");
     min-height: 500px;
-  
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   
+div.parallax.container h3 {
+  color: #000000;
+  background-color: rgba(255, 255, 255, 0.8)
+  ;
+  padding: 5px;
+}
 
 button {
   font-size: 20px;
@@ -227,6 +252,17 @@ button {
   margin-top: 20px;
   padding: 25px;
   border-radius: 35px;
+}
+
+input {
+  border: 2px solid #000000;
+}
+
+#message {
+  width: 80%;
+  padding: 25px;
+  margin-top: 10px;
+  margin-bottom: 25px;;
 }
 
 @keyframes changecolor {
@@ -276,8 +312,8 @@ footer p {
 
 
 .container {
-  padding: 20px;
-  background-color: #f1f1f1;
+  padding: 10px;
+  /* background-color: #f1f1f1; */
 }
 
 /* Style the input elements and the submit button */
