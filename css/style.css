@@ -194,10 +194,10 @@ div.description p {
 
 .social-media {
   display: flex;
-  align-content: center;
-  flex-direction: column;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
   margin: 10px;
-  justify-items: center;
 }
 
 #instagram img{
@@ -209,6 +209,7 @@ div.description p {
 }
 
 #twitter img{
+  justify-content: center;
   padding: 20px;
   flex-basis: 125px;
   max-height: 250px;
