@@ -42,10 +42,6 @@
                <p>NonPolar provides weekly and biweekly content through our social media and newsletters. We tackle the biggest issues in politics,
                    and provide nuance that may be lacking in your traditional news diet. We understand that NO-ONE is truly unbiased- that's why we give you
                     well rounded stories that show both sides, without having to comb through a news feed yourself. We also provide tips, tricks, and resources for those who want to follow the most relevant stories further.</p>
-                <h2>Subscribe to our Newsletter!</h2>
-              
-                <p>We're dedicated to giving you the very best in trends from news, politics, and misinformation.
-                      Subscribe to our newsletter if you'd like to think critically about the most important issues without feeling uninformed!</p>
                 
                 <h2>Follow us on Social Media! </h2>
                 <div class="social-media" >
@@ -56,12 +52,15 @@
             </div>
             <div class="parallax container" style="background-color:white">
                 <form action="action_page.php">
-                    <input type="text" placeholder="Name" name="name" required>
-                    <input type="text" placeholder="Email address" name="mail" required>
+                    <label for="name">Name</label><br>
+                    <input type="text" placeholder="John Doe" name="name" required>
+                    <label for="email">Email</label><br>
+                    <input type="text" placeholder="JDoe@gmail.com" name="mail" required>
                     <br>
                     <h3> Interested in joining our team? Shoot us a message here to become 
                      part of the fight against misinformation and news bias:</h3>
-                    <textarea id ="message" placeholder="Hey NonPolar, my name is..." style = "height: 150px"></textarea>
+                     <label for="message">Message</label><br>
+                    <textarea id="message" name ="message" placeholder="Hey NonPolar, my name is..." style = "height: 150px"></textarea>
                     <input type="submit" value="Subscribe">
                 </form>
             

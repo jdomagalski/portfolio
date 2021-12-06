@@ -247,9 +247,9 @@ div.description p {
   
 div.parallax.container h3 {
   color: #000000;
-  background-color: rgba(255, 255, 255, 0.8)
-  ;
+  background-color: rgba(255, 255, 255, 0.8);
   padding: 5px;
+  margin-bottom: 5px;
 }
 
 button {
@@ -347,6 +347,10 @@ input[type=submit] {
 
 }
 
+label {
+  text-align: left;
+  background-color: rgba(255, 255, 255, 0.8) ;
+}
 
 #subscribe {
   object-fit: contain;
