@@ -374,6 +374,12 @@ input[type=submit] {
     h2 {
       font-size: 38px;
     }
+    .logo img {
+      max-width: 450px;
+    }
+    #newspaper_img {
+      max-width: 450px;
+    }
 }      
 
 @media screen and (min-width: 1024px) {
@@ -406,6 +412,14 @@ input[type=submit] {
   h2 {
     font-size: 44px;
   }
+  .logo img {
+    max-width: 500px;
+  }
+
+  #newspaper_img {
+    max-width: 500px;
+  }
+
   }
 
 @media (prefers-reduced-motion) {
