@@ -15,7 +15,7 @@ html {
   color: black;
 }
 
-body img {
+.logo img {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -38,6 +38,10 @@ div {
     border-radius: 25px;
  }
   
+header {
+  background-color: #ff0000;
+}
+
   .menu {
     display: flex;
     flex-direction: column;
@@ -173,8 +177,6 @@ div.description p {
 
 #newspaper_img {
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
   width: 75%;
   height: 75%;
 }
@@ -182,7 +184,7 @@ div.description p {
 
 .grid {
   display: grid;
-  grid-template-columns:repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns:repeat(auto-fill, minmax(250px, 1fr));
   row-gap: 50px;
   column-gap: 25px;
   justify-items: center;
@@ -190,6 +192,7 @@ div.description p {
   width: fit-content;
   align-content: center;
   }
+
 
 
 .social-media {
@@ -282,6 +285,12 @@ input {
     animation-duration: 2s;
     animation-fill-mode: forwards;
   }
+
+.orgs img {
+  border: black solid 3px;
+  padding: 5px;
+  max-width: 250px;
+}
   
 footer {
   background-color: #194BC6;

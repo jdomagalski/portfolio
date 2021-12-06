@@ -9,10 +9,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-    <title>NonPolar Subscribe Today</title>
-    <img src = "img/nonpolar_logov2.png" alt= "NonPolar logo" width = "75%" height ="75%">
+    <title>Subscribe</title>
 </head>
+
+
 <body>
+    <div id = "logo">
+        <img src = "img/nonpolar_logov2.png" alt= "NonPolar logo" width = "75%" height ="75%">
+    </div>
     <a id = "skip" href="#main">Skip to main content</a>
     <header id = "home">
         <div class ="purpleIt"> 
@@ -31,7 +35,6 @@
     </header>
 
     <main id = "main">
-        <form action="action_page.php">
             <div class="container">
               <hr class = "blue">
                <h2>Why Subscribe to NonPolar?</h2>
@@ -52,17 +55,19 @@
                 <h2> Enter your contact information below to subscribe today!</h2>
             </div>
             <div class="parallax container" style="background-color:white">
-                <input type="text" placeholder="Name" name="name" required>
-                <input type="text" placeholder="Email address" name="mail" required>
-                <br>
-                <h3> Interested in joining our team? Shoot us a message here to become 
+                <form action="action_page.php">
+                    <input type="text" placeholder="Name" name="name" required>
+                    <input type="text" placeholder="Email address" name="mail" required>
+                    <br>
+                    <h3> Interested in joining our team? Shoot us a message here to become 
                      part of the fight against misinformation and news bias:</h3>
-                <textarea id ="message" placeholder="Hey NonPolar, my name is..." style = "height: 150px"></textarea>
-                <input type="submit" value="Subscribe">
+                    <textarea id ="message" placeholder="Hey NonPolar, my name is..." style = "height: 150px"></textarea>
+                    <input type="submit" value="Subscribe">
+                </form>
+            
             </div>
-          </form>    
     </main>
-
+    <script> src = "google_script.js"</script>
 
     <footer>
         <h2>Social Media</h2>
