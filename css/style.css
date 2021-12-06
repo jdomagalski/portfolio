@@ -236,6 +236,59 @@ div.description p {
   flex-basis: 150px;
   }
 
+
+  .main-card {
+    position: relative;
+    width: 350px;
+    height: 400px;
+    background-color: #ffffff;
+    margin-bottom: 300px;
+  }
+
+  .flip-card {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    background: #194BC6;
+    transition: all 0.5s ease;
+  }
+
+  .flip-card p {
+    color: #ffffff;
+  }
+
+  .flip-card:hover , .flip-card:focus-within .front-card, .flip-card:focus .front-card,
+  .flip-card:active .front-card {
+    transform: rotateY(180deg);
+  }
+
+  .front-card {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: #194BC6;
+    color: #ffffff;
+  }
+
+  .back-card {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: #D40D0D;
+    transform: rotateY(180deg);
+  }
+
+  .back-card img {
+    margin-top: -90px;
+    height: 90%;
+    width: 90%;
+  }
+
+
+
   .parallax {
     background-image: url("../img/unseen-histories-BBxy12IGzvk-unsplash.jpg");
     min-height: 500px;
