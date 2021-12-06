@@ -186,7 +186,7 @@ div.description p {
   display: grid;
   grid-template-columns:repeat(auto-fill, minmax(250px, 1fr));
   row-gap: 50px;
-  column-gap: 25px;
+  column-gap: 50px;
   justify-items: center;
   margin-top: 50px;
   width: fit-content;
@@ -209,16 +209,16 @@ div.description p {
   justify-content: center;
   padding: 20px;
   flex-basis: 125px;
-  max-height: 250px;
-  max-width: 250px;
+  max-height: 200px;
+  max-width: 200px;
 }
 
 #twitter img{
   justify-content: center;
   padding: 20px;
   flex-basis: 125px;
-  max-height: 250px;
-  max-width: 250px;
+  max-height: 200px;
+  max-width: 175px;
 }
 
 .grid iframe {
@@ -270,21 +270,6 @@ input {
   margin-bottom: 25px;;
 }
 
-@keyframes changecolor {
-  from {background-color: #2683EF;}
-  to {background-color: #ff0000;}
-}
-
-  #animated {
-    width: fit-content;
-    margin: auto;
-    color: #ffffff;
-    background-color: #2683EF;
-    animation-name: changecolor;
-    animation-delay: 5.0s;
-    animation-duration: 2s;
-    animation-fill-mode: forwards;
-  }
 
 .orgs img {
   border: black solid 3px;
@@ -324,10 +309,8 @@ footer p {
 
 .container {
   padding: 10px;
-  /* background-color: #f1f1f1; */
 }
 
-/* Style the input elements and the submit button */
 input[type=text], input[type=submit] {
   width: 100%;
   padding: 12px;
@@ -379,6 +362,18 @@ input[type=submit] {
       width: auto'
      ;;justify-content: space-around;;;
      }
+
+    .grid p {
+      font-size: 20px;
+    }
+
+    .content p {
+      font-size: 20px;
+    }
+
+    h2 {
+      font-size: 38px;
+    }
 }      
 
 @media screen and (min-width: 1024px) {
@@ -403,10 +398,19 @@ input[type=submit] {
     height: 400px;
     width: 400px;
     }
+
+  .content p {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
   }
 
 @media (prefers-reduced-motion) {
   #animated, .purpleIt {
     animation: none;
   }
+
 }
