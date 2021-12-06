@@ -140,6 +140,11 @@ h2 {
     text-align: center;
 }
 
+h3 {
+  padding: 10px;
+  text-align: center;
+}
+
 p {
     font-size: 16px;
     line-height: 1.6;
@@ -271,6 +276,21 @@ input {
   margin-bottom: 25px;;
 }
 
+#team {
+  display: flex;
+  padding: 25px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#team img {
+  justify-content: center;
+  padding: 20px;
+  flex-basis: 125px;
+  max-height: 200px;
+  max-width: 200px;
+}
+
 
 .orgs img {
   border: black solid 3px;
@@ -336,10 +356,6 @@ input[type=submit] {
   display: block;
 }
 
-@media screen and (min-width: 481px) {
-/* tablets */
-
-}
 
   @media screen and (min-width: 768px) {
     main {
@@ -375,6 +391,11 @@ input[type=submit] {
     h2 {
       font-size: 38px;
     }
+
+    h3 {
+      font-size: 30px;
+    }
+
     .logo img {
       max-width: 450px;
     }
