@@ -188,9 +188,10 @@ div.description p {
   row-gap: 50px;
   column-gap: 50px;
   justify-items: center;
-  margin-top: 50px;
   width: fit-content;
   align-content: center;
+  margin-left: auto;
+  margin-right: auto;
   }
 
 
