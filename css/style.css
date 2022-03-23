@@ -120,19 +120,7 @@ header h1 {
 
 }
 
-.purpleIt {
-  animation-name: purpleIt;
-  animation-delay: 1.5s;
-  animation-duration: 3.0s;
-  animation-fill-mode: forwards;
-  animation-timing-function: ease-in-out;
-}
 
-@keyframes purpleIt {
-  from {background-color: #194BC6;}
-  to {background-color: #9b36c9;}
-
-}
 
 h2 {
     font-size: 30px;
